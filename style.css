@@ -1,0 +1,92 @@
+.statusbar {
+    background: #292929;
+    color: #fff;
+    border: 1px solid #bbb;
+    width: 99%;
+    clear: both;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 2px;
+}
+
+.commandline {
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: 2px;
+}
+.bottom-section {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background: #353945;
+    color: #ddd;
+    padding: 0px;
+    margin: 0px;
+    font-family: monospace;
+    max-width: 99%;
+}
+
+input {
+  border: none;
+  background: transparent;
+  outline: none;
+  color: #ddd;
+  font-family: monospace;
+  min-width: 70%;
+}
+
+.selecteditem {
+    background: #000;
+    color: #fff;
+}
+
+.doneItem {
+    color: lightgreen;
+}
+
+.doingItem {
+    color: cyan;
+}
+
+.holdItem {
+    color: yellow;
+}
+
+.itemComment {
+    color: #aaa !important;
+    margin-left: 3.85em !important;
+    border-left: 2px solid #888 !important;
+    padding-left: 1.6em;
+    font-style: italic !important;
+}
+
+.itemDue {
+    color: #faa;
+}
+
+.blink {
+    color: #f00;
+    animation-duration: 1s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(1, start);
+}
+@keyframes blink {
+    100% {
+	opacity: 1;
+    }
+    50% {
+	opacity: 0;
+    }
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: pink;
+    cursor: pointer;
+}
