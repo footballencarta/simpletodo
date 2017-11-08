@@ -4,6 +4,8 @@ SimpleTodo is a web app for making todo lists on. It makes use of browser storag
 
 ## Screenshot
 A picture is worth 1000 words:
+
+
 ![Screenshot](https://user-images.githubusercontent.com/6578915/32556398-3bea1fc0-c497-11e7-8cbc-9565aec40a81.png)
 
 ## Features
