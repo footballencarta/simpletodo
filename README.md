@@ -2,6 +2,10 @@
 
 SimpleTodo is a web app for making todo lists on. It makes use of browser storage with no server necessary. Just run the index.htm file and you're good.
 
+## Screenshot
+A picture is worth 1000 words:
+![Screenshot](https://user-images.githubusercontent.com/6578915/32556398-3bea1fc0-c497-11e7-8cbc-9565aec40a81.png)
+
 ## Features
 - Due dates on task, will flash when overdue
 - JIRA ticket links, simply set your JIRA prefix and ticket IDs can be placed next to tasks
