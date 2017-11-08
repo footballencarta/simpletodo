@@ -17,7 +17,7 @@
 	</div>
 	<div class="bottom-section">
 	    <div class="statusbar">
-		{{ cur }} - <span style="padding-right: 100px;" class="doneItem"> *todo* </span> [{{$storage.todoList.length}} items]
+		{{ cur }} - <span style="padding-right: 100px;" class="doneItem"> *todo* </span> <span class="itemCount itemDue"> [{{$storage.todoList.length}} items]</span>
 	    </div>
 	    <div class="commandline">
 		{{ commandLine }} <input id="cmdField" type="text" ng-model="cmd"/>

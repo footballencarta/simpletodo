@@ -69,6 +69,11 @@ input {
     color: #faa;
 }
 
+.itemCount {
+    position: absolute;
+    right: 1em;
+}
+
 .blink {
     color: #f00;
     animation-duration: 1s;
