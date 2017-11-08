@@ -9,6 +9,10 @@ app.controller("MainController", function($scope, $localStorage, $sessionStorage
 
     $scope.cur = 0;
 
+    if($scope.$storage.todoList === undefined) {
+	$scope.$storage.todoList = [];
+    }
+
     $scope.setCmdFocus = function(state) {
 	var inputbox = $window.document.getElementById('cmdField');
 	if(state === true)
@@ -92,7 +96,7 @@ app.controller("MainController", function($scope, $localStorage, $sessionStorage
 	    }
 	    if(e.key == 'l') {
 		e.preventDefault();
-		if($scope.$storage.jiraUrl === null || $scope.$storage.jiraUrl == "") {
+		if($scope.$storage.jiraUrl === undefined || $scope.$storage.jiraUrl == "") {
 		    $scope.commandLine = "Set JIRA ticket URL prefix: (i.e. https://your.jira.url/browse/):";
 		    $scope.setCmdFocus(true);
 		    $scope.editing = 'newurl';
